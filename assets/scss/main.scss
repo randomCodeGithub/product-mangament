@@ -1,0 +1,78 @@
+@import "config";
+@import "navigation";
+@import "responsive";
+
+body {
+  background-color: rgb(229, 234, 231) !important;
+}
+
+.form-control:focus {
+  border-color: #ff8900 !important;
+  box-shadow: 0 0 0 .2rem rgba(255, 137, 0, .25) !important;
+}
+
+main {
+  margin-top: 3.6rem;
+
+  //Product list page
+  .container {
+    margin-top: 5.6rem;
+
+    .col-lg-3 {
+      margin-bottom: 30px !important;
+    }
+  }
+
+  // Add product page
+  .container-fluid {
+    margin-top: 5.6rem;
+
+    form {
+      width: 31rem;
+
+      hr {
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+      }
+
+      input {
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+        border-radius: 4px 4px 4px 4px;
+        background: #ddd;
+        font-weight: bold;
+        color: $primary-color;
+        border: 1px solid #b1b1b1;
+        transition: all 0.3s;
+      }
+
+      .form-group {
+        margin-bottom: 1.5rem;
+        align-items: center;
+
+        label {
+          font-weight: $bold-weight;
+          font-size: 20px;
+          color: $primary-color;
+        }
+      }
+
+      .type-filter{
+        display: none;
+      }
+    }
+  }
+
+  //product card
+  .card {
+    position: relative;
+    text-align: center;
+    background-color: $secondary-color;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+
+    .form-check-inline {
+      top: 0.8rem;
+      left: 0.5rem;
+    }
+  }
+}

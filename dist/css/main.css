@@ -1,0 +1,150 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.87);
+  border-top: 2px solid #ff8900;
+  height: 61.2px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.55) !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+nav a:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+nav .dropdown-menu {
+  border-radius: 3px;
+  margin-top: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px 0px, rgba(0, 0, 0, 0.09) 0px 6px 20px 0px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px 0px, rgba(0, 0, 0, 0.09) 0px 6px 20px 0px;
+  background-color: #fff;
+  padding: 0;
+}
+
+nav .dropdown-menu .dropdown-item {
+  color: #000 !important;
+  font-weight: 600 !important;
+  padding: 8px 10px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+nav .dropdown-menu .dropdown-item:hover {
+  background: #29292a !important;
+  color: #fff !important;
+}
+
+nav .form-control {
+  padding: 0px;
+  width: 11rem;
+}
+
+nav button {
+  background-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.65);
+  border-radius: 7px;
+  padding: 3px 8px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 1rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding-bottom: 6px;
+}
+
+nav button:hover {
+  background: #fff;
+  border-color: #fff;
+}
+
+@media screen and (max-width: 576.98px) {
+  nav .form-control {
+    width: 10rem;
+  }
+  .container-fluid form {
+    width: 100% !important;
+  }
+}
+
+body {
+  background-color: #e5eae7 !important;
+}
+
+.form-control:focus {
+  border-color: #ff8900 !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 137, 0, 0.25) !important;
+          box-shadow: 0 0 0 0.2rem rgba(255, 137, 0, 0.25) !important;
+}
+
+main {
+  margin-top: 3.6rem;
+}
+
+main .container {
+  margin-top: 5.6rem;
+}
+
+main .container .col-lg-3 {
+  margin-bottom: 30px !important;
+}
+
+main .container-fluid {
+  margin-top: 5.6rem;
+}
+
+main .container-fluid form {
+  width: 31rem;
+}
+
+main .container-fluid form hr {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+main .container-fluid form input {
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+  border-radius: 4px 4px 4px 4px;
+  background: #ddd;
+  font-weight: bold;
+  color: #000;
+  border: 1px solid #b1b1b1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+main .container-fluid form .form-group {
+  margin-bottom: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container-fluid form .form-group label {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+
+main .container-fluid form .type-filter {
+  display: none;
+}
+
+main .card {
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+}
+
+main .card .form-check-inline {
+  top: 0.8rem;
+  left: 0.5rem;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,62 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.87);
+  border-top: 2px solid #ff8900;
+  height: 61.2px;
+
+  a {
+    color: rgba(255, 255, 255, 0.55) !important;
+    font-size: 15px !important;
+    font-weight: $bold-weight !important;
+    transition: all 0.3s;
+
+    &:hover {
+      color: white !important;
+      text-decoration: none;
+    }
+  }
+
+  // DROPDOWN MENU
+
+  .dropdown-menu {
+    border-radius: 3px;
+    margin-top: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px 0px,
+      rgba(0, 0, 0, 0.09) 0px 6px 20px 0px;
+    background-color: $secondary-color;
+    padding: 0;
+
+    .dropdown-item {
+      color: $primary-color !important;
+      font-weight: $bold-weight !important;
+      padding: 8px 10px;
+      border-bottom: 1px solid #e3e3e3;
+
+      &:hover {
+        background: #29292a !important;
+        color: #fff !important;
+      }
+    }
+  }
+
+  .form-control {
+    padding: 0px;
+    width: 11rem;
+  }
+
+  button {
+    background-color: rgb(217, 217, 217);
+    color: rgba(0, 0, 0, 0.65);
+    border-radius: 7px;
+    padding: 3px 8px;
+    font-weight: $bold-weight;
+    font-size: 14px;
+    margin-left: 1rem;
+    transition: all 0.3s;
+    padding-bottom: 6px;
+
+    &:hover {
+      background: $secondary-color;
+      border-color: $secondary-color;
+    }
+  }
+}

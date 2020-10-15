@@ -1,0 +1,16 @@
+$primary-color: #000;
+$secondary-color: #fff;
+$bold-weight: 600;
+
+$breakpoints: (
+  xs: 576.98px,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px
+);
+
+@mixin xs {
+    @media screen and (max-width: map-get($breakpoints, xs)) {
+      @content;
+    }
+  }

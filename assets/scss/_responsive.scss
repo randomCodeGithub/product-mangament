@@ -1,0 +1,14 @@
+
+@include xs {
+  nav {
+    .form-control {
+      width: 10rem;
+    }
+  }
+
+  .container-fluid {
+    form {
+      width: 100% !important;
+    }
+  }
+}
