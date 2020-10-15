@@ -1,4 +1,4 @@
-# Scandiweb test task
+# Product management
 
 ## Description
 
@@ -7,12 +7,13 @@ Add product page allow you add products by: sku, name, price and type.
 
 ## Used technologies
 
-* PHP
+* PHP;
 * HTML;
 * CSS (Bootstrap, SASS);
 * Javascript (jquery);
-* MySQL
-* XAMPP web server
+* MySQL;
+* XAMPP web server;
+* VS code ;
 
 ## Installation
 
